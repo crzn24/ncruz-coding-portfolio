@@ -68,8 +68,11 @@ a:hover {
 
 .project {
     display: flex;
-    border-style: solid 2px black;
+    border-style: solid;
+    border-width: 2px;
     padding: 10px;
+    float: left;
+    width: 80%%;
 }
 
 .project header {
@@ -78,19 +81,35 @@ a:hover {
     background-color: #736679;
 }
 
+.project p {
+    text-align: center;
+}
 
+
+.project image {
+    float: left;
+    width: 120px;
+    height: auto;
+    object-fit: cover;
+}
 
 
 
 /* Media Query - in order from widest to narrowest since using max-width as breakpoint. */
 @media screen and (max-width:992px) {
-    
+    .project {
+        width: 50%;
+    }
 }
 
 @media screen and (max-width:768px) {
-
+    .project {
+        width: 75%;
+    }
 }
 
 @media screen and (max-width:576px) {
-
+    .project {
+        width: 100%;
+    }
 }
