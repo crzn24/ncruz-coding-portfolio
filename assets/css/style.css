@@ -1,6 +1,7 @@
 * {
     box-sizing: border-box;
-    /*Easier to layout things with box-sizing*/
+    /*Easier to layout things with box-sizing border-box vs content-box */
+    margin: 0;
 }
 
 body {
@@ -10,16 +11,36 @@ body {
 
 
 header {
-    display: flex;
-    justify-content: flex-start;
+    padding: 10px;
     background-color: olive;
 }
 
-
-nav {
-    display: flex;
-    background-color: none;
+h1 {
+    display: inline-block;
+    font-size: 50px;
 }
+
+/* Navigation bar */
+nav {
+    float: right;
+    background-color: none;
+    margin-right: 30px;
+    padding-top: 20px;
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+}
+
+a {
+    color: black;
+}
+
+
+
+
+
 
 
 .work {
