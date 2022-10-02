@@ -45,7 +45,12 @@ a:hover {
     color: ;
 }
 
-
+/* Profile photo */
+.profile-image {
+    position: absolute;
+    border: #736679 solid 5px;
+    padding: 0;
+}
 
 /* Header image */
 .header-background-image {
