@@ -64,7 +64,10 @@ a:hover {
     width: 100%;
 }
 
-
+/* Main Content Area */
+section {
+    margin: 20px;
+}
 
 
 /* Work section */
@@ -79,8 +82,9 @@ a:hover {
 .project {
     display: flex;
     border-style: solid;
-    border-width: 2px;
-    padding: 10px;
+    border-width: 5px;
+    border-color: #736679;
+    padding: 0px;
     float: left;
     width: 75%;
 }
