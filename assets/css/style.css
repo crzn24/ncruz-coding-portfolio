@@ -95,6 +95,7 @@ section {
     padding: 20px;
     justify-content: space-between;
     background-color: #736679;
+    position:absolute;
 }
 
 .project p {
