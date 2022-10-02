@@ -90,7 +90,7 @@ section {
     position: relative;
 }
 
-.project header {
+.project h3 {
     display: flex;
     flex-wrap: wrap;
     padding: 20px;
