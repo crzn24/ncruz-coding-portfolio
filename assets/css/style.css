@@ -87,6 +87,7 @@ section {
     padding: 0px;
     float: left;
     width: 75%;
+    position: relative;
 }
 
 .project header {
@@ -96,6 +97,8 @@ section {
     justify-content: space-between;
     background-color: #736679;
     position:absolute;
+    bottom: 0;
+    left: 0;
 }
 
 .project p {
