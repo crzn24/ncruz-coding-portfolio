@@ -117,6 +117,23 @@ section {
 
 
 
+/* Contact Section */
+.contact-me {
+   display: flex;
+}
+
+.contact-me ul li {
+    list-style-type: none;
+    display: inline-block;
+    margin-left: 10px;
+    font-size: 20px;
+    text-decoration: underline;
+    color: black;
+}
+
+
+
+
 
 
 
