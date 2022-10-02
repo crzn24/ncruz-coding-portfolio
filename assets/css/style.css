@@ -43,7 +43,7 @@ a {
 }
 
 a:hover {
-    color: ;
+    color: #C6AA29;
 }
 
 /* Profile photo */
@@ -64,8 +64,8 @@ a:hover {
 
 
 
-/* Work section */
 
+/* Work section */
 .work {
     display: flex;
     flex-wrap: wrap;
@@ -80,7 +80,7 @@ a:hover {
     border-width: 2px;
     padding: 10px;
     float: left;
-    width: 80%%;
+    width: 75%;
 }
 
 .project header {
@@ -102,6 +102,13 @@ a:hover {
     height: auto;
     object-fit: cover;
 }
+
+
+
+
+
+
+
 
 
 
