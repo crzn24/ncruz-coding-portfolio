@@ -12,12 +12,15 @@ body {
 
 header {
     padding: 10px;
-    background-color: olive;
+    background-color: #383E35;
 }
 
 h1 {
     display: inline-block;
     font-size: 50px;
+    background-color: #736679;
+    padding: 5px;
+    margin-left: 0;
 }
 
 /* Navigation bar */
@@ -38,6 +41,9 @@ a {
     color: black;
 }
 
+a:hover {
+    color: ;
+}
 
 
 
