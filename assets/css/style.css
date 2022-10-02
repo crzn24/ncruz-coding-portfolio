@@ -40,8 +40,18 @@ a {
 
 
 
+/* Header image */
+.header-background-image {
+    background-image: url(../images/grogu-shock.gif);
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    width: 100%;
+}
 
 
+
+/* Work section */
 
 .work {
     display: flex;
@@ -60,6 +70,9 @@ a {
     padding: 20px;
     justify-content: center;
 }
+
+
+
 
 
 /* Media Query - in order from widest to narrowest since using max-width as breakpoint. */
