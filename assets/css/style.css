@@ -69,13 +69,24 @@ section {
     margin: 20px;
 }
 
+/* About Me */
+.about-me {
+    display: flex;
+}
+
+.about-me p {
+    display: flex;
+    flex-wrap: wrap;
+    text-align:right;
+}
+
 
 /* Work section */
 .work {
     display: flex;
-    flex-wrap: wrap;
     justify-content: flex-end;
-    border: 2px;
+    flex-wrap: wrap;
+    
 }
 
 
