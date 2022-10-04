@@ -72,16 +72,22 @@ section {
 /* About Me */
 .about-me {
     display: flex;
+    text-align: right;
 }
 
 .about-me p {
-    display: flex;
     flex-wrap: wrap;
-    text-align:right;
+    justify-content: flex-end;
+    text-align: right;
 }
 
 
 /* Work section */
+.my-work {
+    display: flex;
+    text-align: right;
+}
+
 .work {
     display: flex;
     justify-content: flex-end;
