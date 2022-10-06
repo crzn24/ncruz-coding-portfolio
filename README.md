@@ -1,5 +1,3 @@
-# ncruz-coding-portfolio
-
 # N Cruz's Coding Portfolio
 
 ## Description
