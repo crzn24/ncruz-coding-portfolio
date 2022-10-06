@@ -180,9 +180,9 @@ section {
 
 
 /* Media Query - in order from widest to narrowest since using max-width as breakpoint. */
-@media screen and (max-width:992px) {
-    .project, .project image {
-        width: 50%;
+@media screen and (max-width:576px) {
+    .project, .project image{
+        width: 100%;
     }
 }
 
@@ -192,8 +192,11 @@ section {
     }
 }
 
-@media screen and (max-width:576px) {
-    .project, .project image{
-        width: 100%;
+@media screen and (max-width:992px) {
+    .project, .project image {
+        width: 50%;
     }
 }
+
+
+
