@@ -103,7 +103,6 @@ section {
     text-align: right;
     padding-right: 15px;
     border-right: #736679 solid 2px;
-    position: relative;
 }
 
 .work {
@@ -111,7 +110,6 @@ section {
     justify-content: space-around;
     flex-wrap: wrap;
     margin: 7px;
-    
 }
 
 
@@ -148,12 +146,20 @@ section {
 }
 
 
-
-
-
 /* Contact Section */
 .contact-me {
-   display: flex;
+    display: flex;
+    position: relative;
+    padding-left: 350px;
+    margin-right: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#contact-me {
+    text-align: right;
+    padding-right: 15px;
+    border-right: #736679 solid 2px;
 }
 
 .contact-me ul li {
