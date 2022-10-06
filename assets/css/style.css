@@ -96,7 +96,14 @@ section {
 .my-work {
     display: flex;
     justify-content: right;
-    padding-left: 250px;
+    padding-left: 350px;
+}
+
+#my-work {
+    text-align: right;
+    padding-right: 15px;
+    border-right: #736679 solid 2px;
+    position: relative;
 }
 
 .work {
