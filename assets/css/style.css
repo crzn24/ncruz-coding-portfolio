@@ -107,8 +107,8 @@ section {
 
 .work {
     display: flex;
-    justify-content: space-around;
     flex-wrap: wrap;
+    justify-content: right;
     margin: 7px;
 }
 
@@ -137,12 +137,17 @@ section {
     text-align: center;
 }
 
+#project1pic {
+    width: 80%;
+}
 
 .project image {
+    /* width: 50%; */
     width: 90px;
     height: auto;
     max-width: 576px;
     object-fit: cover;
+    flex-wrap: wrap;
 }
 
 .project img:hover {
