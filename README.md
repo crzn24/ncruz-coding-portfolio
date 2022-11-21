@@ -12,6 +12,7 @@ This project did help me get more comfortable with CSS and especially understand
 
 This project serves as a professional portfolio for potential employers to view and for myself to continously update as I go through a coding bootcamp. 
 
+[Link to portfolio](https://crzn24.github.io/ncruz-coding-portfolio/)
 ![Screenshot of N Cruz's coding portfolio](assets/images/ncruzportfoliopic.png)
 
 ## Credits
